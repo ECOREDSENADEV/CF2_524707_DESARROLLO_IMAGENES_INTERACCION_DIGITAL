@@ -32,13 +32,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Montaje audiovisual',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Edición de imagen',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Edición de audio',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Edición de video',
+            hash: 't_1_3',
           },
         ],
       },
@@ -46,14 +56,40 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Creación <em>web</em>',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Diseño <em>web</em>',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Arquitectura y diagramación <em>web</em>',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: '<em>Software</em> para hacer diagramas',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Maquetación <em>web</em>',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Lenguajes de programación para <em>frontend</em>',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Estructuración técnica de un sitio <em>web</em>',
+            hash: 't_2_6',
+          },
+        ],
       },
     ],
     subMenu: [

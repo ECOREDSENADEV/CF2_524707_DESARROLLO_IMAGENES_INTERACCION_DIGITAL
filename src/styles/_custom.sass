@@ -33,3 +33,119 @@ figcaption
   
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/fondo-banner-principal3.png") !important
+
+//////////Background_Color///////////
+.bg-color
+  &-1
+    background-color: #F4EBFA
+  &-2
+    background-color: #F5F4A4
+  &-3
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(252, 252, 231, 1) 30%, rgba(252, 252, 231, 1) 70%, rgba(255, 255, 255, 1) 99%)
+  &-4
+    background-color: #FAF9D1
+  &-5
+    background-color: #88DDD8
+  &-6
+    background-color: #C8A0E6
+  &-7
+    background-color: #634F72 !important
+  &-8
+    background-color: #E6E51D !important
+  &-9
+    background-color: #E9D8F5
+  &-white
+    background-color: white !important
+    border: 1px solid $lightest-gray
+  &-secundario
+    background-color: $color-secundario !important
+  &-sintesis
+    background-color: #F6F6F6
+
+///////Full Width Background///////////////////
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+///////////////fondos/////////////////
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg1.svg") !important
+    background-position: top
+  &-2
+    // background-image: url("../assets/curso/bg2.png") !important
+    background-position: bottom
+  &-slider
+    background-image: url("../assets/curso/bg-slider.png") !important
+    background-position: bottom
+
+//////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item 
+  background-color: #ECDEF6
+  border: #ECDEF6
+.slyder-a__bullets__item--active
+  background-color: #C8A0E6
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #FFAA00
+.slyder-a__bullets__item
+  @media screen and ( max-width: $bp-max-xs )
+    margin: 0 5px
+  
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #E6E51D
+  border-radius: 30px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: 10px
+  width: 50px
+  bottom: 0
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 50px
+
+//////////CUSTOM BOTONES SLYDER-F/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 20px
+  .fa-chevron-right
+    font-size: 20px
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
+
+.bloque-texto-c i
+  color: #E6E51D
