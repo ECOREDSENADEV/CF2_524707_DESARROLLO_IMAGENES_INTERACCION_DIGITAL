@@ -70,27 +70,27 @@
             p Antes de profundizar en el proceso de edición, es necesario comprender qué es una imagen digital, cuáles son sus características y qué tipos existen, pues de esta clasificación dependerá su tratamiento técnico. Entre los elementos vinculados al proceso de captura y digitalización de la imagen se encuentran:
 
             .row.justify-content-center.mb-3
-              .col-lg-3.text-center
+              .col-lg-3.text-center.mb-3.mb-lg-0
                 .bg-color-5.p-4.h-100
                   h5.mb-0 Imagen
-              .col-lg-3.text-center
+              .col-lg-3.text-center.mb-3.mb-lg-0
                 .bg-color-5.p-4.h-100
                   h5.mb-0 Objetivo
-              .col-lg-3.text-center
+              .col-lg-3.text-center.mb-3.mb-lg-0
                 .bg-color-5.p-4.h-100
                   h5.mb-0 Filtro infrarrojo
-              .col-lg-3.text-center
+              .col-lg-3.text-center.mb-3.mb-lg-0
                 .bg-color-5.p-4.h-100
                   h5.mb-0 Filtro RGB
             
             .row.justify-content-center
-              .col-lg-3.text-center
+              .col-lg-3.text-center.mb-3.mb-lg-0
                 .bg-color-5.p-4.h-100
                   h5.mb-0 Matriz CCD
-              .col-lg-3.text-center
+              .col-lg-3.text-center.mb-3.mb-lg-0
                 .bg-color-5.p-4.h-100
                   h5.mb-0 Conversor ADC
-              .col-lg-3.text-center
+              .col-lg-3.text-center.mb-3.mb-lg-0
                 .bg-color-5.p-4.h-100
                   h5.mb-0 Dígitos del sistema binario
 
@@ -405,65 +405,65 @@
       .px-4.px-md-5.py-4
         p.mb-5 A continuación, se relacionan algunos ejemplos representativos:
 
-        .bg-color-10.p-4
+        .bg-color-10.p-4.mb-5
           p.text-center Editores para computador
           .row.justify-content-center.mb-5
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/28.png', alt='Adobe Photoshop')
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/29.png', alt='CorelDRAW')
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/30.png', alt='GIMP')
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/31.png', alt='Paint.NET')
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/32.png', alt='Adobe Illustrator')
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/33.png', alt='Adobe InDesign')
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/34.png', alt='Inkscape')
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/35.png', alt='Lightroom')
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/36.png', alt='Gravit Designer')
           p.text-center Editores para celulares
           .row.justify-content-center.mb-5
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/37.png', alt='Photoshop Express')
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/38.png', alt='VSCO')
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/39.png', alt='Canva')
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/40.png', alt='Snapseed')
           p.text-center Editores en línea
           .row.justify-content-center.mb-5
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/41.png', alt='Canva')
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/42.png', alt='PicMonkey')
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/43.png', alt='Pixlr')
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/44.png', alt='Fotor')
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-xl-0
               figure
                 img(src='@/assets/curso/tema1/45.png', alt='BeFunky')
 
@@ -473,10 +473,10 @@
     p.mb-5 Finalmente, las aplicaciones pueden clasificarse según su modelo de licencia.
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-6.mb-3.mb-lg-0.order-lg-2
+      .col-lg-5.col-xl-6.mb-3.mb-lg-0.order-lg-2
         figure
           img(src="@/assets/curso/tema1/46.png", data-aos="zoom-in")
-      .col-lg-6.order-lg-1
+      .col-lg-7.col-xl-6.order-lg-1
         .row.justify-content-center
           .col-lg-6.mb-3.mb-lg-0
             .bg-color-4.p-4

@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 69%
+    right: 50%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 46%
+    right: 5%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 25%
+    right: 73%
 
 @keyframes float1
   0%
@@ -20,7 +25,9 @@
   background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 450px !important  
+  @media screen and (max-width: $bp-max-xl)
+    width: 400px !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
@@ -30,7 +37,19 @@
 
 figcaption
   font-weight: normal
-  
+
+
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto !important
+
+.banner-principal .tarjeta
+  @media screen and (max-width: $bp-max-md)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+
+
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/fondo-banner-principal3.png") !important
 
@@ -60,9 +79,13 @@ figcaption
     color: #A09F14 !important
   &-12
     background-color: #CFF1EF
+  &-13
+    color: #57FCF5
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
+  &-black
+    background-color: #000000
   &-secundario
     background-color: $color-secundario !important
   &-sintesis
@@ -180,3 +203,11 @@ figcaption
     border: 2px solid #B5B5B5
   table
     table-layout: auto
+
+// Estilo para uniformar los encabezados
+.header-container
+  display: flex
+  align-items: center
+  justify-content: center
+  min-height: 80px // Ajusta este valor según el título más largo
+  width: 100%

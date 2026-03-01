@@ -20,7 +20,7 @@ export default {
       tema: 'Producción e integración de contenidos digitales',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar los conceptos clave relacionados con la edición, montaje, formatos digitales, producción audiovisual y desarrollo web.',
+        '<b> Objetivo:</b> identificar los conceptos clave relacionados con la edición, montaje, formatos digitales, producción audiovisual y desarrollo web.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',

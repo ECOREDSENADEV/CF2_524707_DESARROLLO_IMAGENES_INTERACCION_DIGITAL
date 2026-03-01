@@ -8,11 +8,15 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -110,11 +114,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
+      /*{
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-      },
+      },*/
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
